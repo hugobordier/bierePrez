@@ -117,6 +117,21 @@ export function LoserDisplay() {
           </div>
         </div>
       )}
+
+      <div className="mt-8 bg-red-950/80 rounded-lg p-6 border-2 border-red-600">
+        <h2 className="text-2xl md:text-3xl font-bold text-red-400 mb-4">
+          ⚠️ LES LOSERS ⚠️
+        </h2>
+        <p className="text-red-200 text-lg mb-4 font-bold">
+          Tous ceux qui ne se sont pas connectés et le dernier doivent prendre
+          un shot à la fin de la pres ! 🍺
+        </p>
+        <div className="bg-red-900/50 rounded-lg p-4 border border-red-700">
+          <p className="text-red-100 text-xl font-black uppercase">
+            PAS DE PITIÉ POUR LES RETARDATAIRES ! 💀
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
